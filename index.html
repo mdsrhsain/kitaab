@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Which Book? | کون سی کتاب چاہیے</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fonts: Outfit for English, Noto Nastaliq Urdu for Urdu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Outfit:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Background Elements -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo hover-target">
+                <span class="en-logo" style="font-size: 1.5rem;">Which Book?</span>
+                <span class="ur-logo" style="font-size: 1.4rem;">کون سی کتاب چاہیے</span>
+                <div class="logo-dot"></div>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="hover-target">Home <span class="ur-text">ہوم</span></a></li>
+                <li><a href="#services" class="hover-target">Services <span class="ur-text">خدمات</span></a></li>
+                <li><a href="#works" class="hover-target">How It Works <span class="ur-text">طریقہ کار</span></a></li>
+            </ul>
+
+            <div class="nav-cta">
+                <a href="#contact" class="btn-primary hover-target">
+                    Request Book <span class="ur-text btn-ur">کتاب منگوائیں</span>
+                </a>
+            </div>
+
+            <div class="mobile-menu-btn hover-target">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <div class="badge">
+                    Premium Book Service <span class="ur-text">پریمیم سروس</span>
+                </div>
+                <h1 class="hero-title">
+                    Discover Worlds,<br>
+                    <span class="gradient-text">We Deliver.</span>
+                </h1>
+                <h1 class="hero-title-ur" dir="rtl">
+                    دنیا دریافت کریں، <br>
+                    <span class="gradient-text">ہم پہنچائیں گے۔</span>
+                </h1>
+                <div class="bilingual-desc">
+                    <p class="en-desc">Any book you desire from across the globe, meticulously sourced and delivered
+                        directly to your doorstep anywhere in Pakistan.</p>
+                    <p class="ur-desc" dir="rtl">دنیا بھر سے آپ کی پسندیدہ کتاب، نہایت احتیاط سے تلاش کر کے پاکستان میں
+                        آپ کی دہلیز تک۔</p>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-primary hover-target btn-large">
+                        Start Your Journey <i class="fas fa-arrow-right"></i>
+                        <span class="ur-text btn-ur" dir="rtl">سفر شروع کریں</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="glass-card visual-card hover-tilt">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Beautiful Books">
+                    </div>
+                    <div class="floating-badge badge-1">
+                        <i class="fas fa-globe"></i> Global Sourcing
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fas fa-box-open"></i> Safe Delivery
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="works" class="works-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>How It Works</h2>
+                <h2 class="ur-title" dir="rtl">یہ کیسے کام کرتا ہے</h2>
+                <div class="line-dec"></div>
+            </div>
+
+            <div class="steps-grid">
+                <!-- Step 1 -->
+                <div class="step-card glass-card hover-target reveal hover-tilt">
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="step-number">01</div>
+                    <h3>You Request</h3>
+                    <h3 class="ur-title-sm" dir="rtl">آپ فرمائش کریں</h3>
+                    <p>Tell us the name and author of the book you are looking for.</p>
+                    <p class="ur-desc-sm" dir="rtl">ہمیں اس کتاب کا نام اور مصنف بتائیں جس کی آپ کو تلاش ہے۔</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="step-card glass-card hover-target reveal hover-tilt">
+                    <div class="step-icon">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <div class="step-number">02</div>
+                    <h3>We Source it</h3>
+                    <h3 class="ur-title-sm" dir="rtl">ہم تلاش کریں گے</h3>
+                    <p>We find the best quality copy from domestic or international markets.</p>
+                    <p class="ur-desc-sm" dir="rtl">ہم ملکی یا بین الاقوامی مارکیٹ سے بہترین معیار کی کاپی تلاش کرتے
+                        ہیں۔</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="step-card glass-card hover-target reveal hover-tilt">
+                    <div class="step-icon">
+                        <i class="fas fa-truck-fast"></i>
+                    </div>
+                    <div class="step-number">03</div>
+                    <h3>You Receive</h3>
+                    <h3 class="ur-title-sm" dir="rtl">آپ وصول کریں</h3>
+                    <p>The book is carefully packaged and safely delivered to your address with a small commission
+                        included.</p>
+                    <p class="ur-desc-sm" dir="rtl">کتاب احتیاط سے پیک کی جاتی ہے اور ایک معمولی کمیشن کے ساتھ آپ کے پتے
+                        پر پہنچا دی جاتی ہے۔</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Request Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-container reveal">
+            <div class="contact-info">
+                <h2>Ready to order?</h2>
+                <h2 class="ur-title" dir="rtl">آرڈر کرنے کے لئے تیار ہیں؟</h2>
+                <p>Fill out the form with your required book details. We'll get back to you with the pricing and
+                    delivery timeline.</p>
+                <p class="ur-desc" dir="rtl">فارم میں مطلوبہ کتاب کی تفصیلات درج کریں۔ ہم قیمت اور ترسیل کے وقت کے ساتھ
+                    آپ سے رابطہ کریں گے۔</p>
+
+                <div class="contact-methods">
+                    <div class="method">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>+92 300 0000000</span>
+                    </div>
+                    <div class="method">
+                        <i class="fas fa-envelope"></i>
+                        <span>request@kitaab.example.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form glass-card">
+                <form id="requestForm">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name / <span class="ur-text inline-ur" dir="rtl">آپ کا نام</span></label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="bookTitle" required placeholder=" ">
+                        <label for="bookTitle">Book Title / <span class="ur-text inline-ur" dir="rtl">کتاب کا
+                                نام</span></label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="author" required placeholder=" ">
+                        <label for="author">Author Name / <span class="ur-text inline-ur" dir="rtl">مصنف کا
+                                نام</span></label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="city" required placeholder=" ">
+                        <label for="city">City / <span class="ur-text inline-ur" dir="rtl">شہر</span></label>
+                    </div>
+                    <button type="submit" class="btn-primary btn-submit hover-target">
+                        Send Request <span class="ur-text btn-ur">درخواست بھیجیں</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="en-logo" style="font-size: 1.5rem;">Which Book?</span>
+                    <span class="ur-logo" style="font-size: 1.4rem;">کون سی کتاب چاہیے</span>
+                </div>
+                <p>Your Bridge to Global Knowledge.</p>
+                <p class="ur-desc" dir="rtl">عالمی علم تک آپ کا پل۔</p>
+            </div>
+            <div class="footer-links">
+                <h4>Social <span class="ur-text" dir="rtl">سوشل</span></h4>
+                <div class="social-icons">
+                    <a href="#" class="hover-target"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover-target"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="hover-target"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Which Book? Project. All requirements fulfilled.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
